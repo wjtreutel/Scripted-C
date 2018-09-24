@@ -1,0 +1,5 @@
+S  "Hi"
+
+SYS  "Hello User. How are you today?"
+USR  "ls"
+SYS  "\ttext.txt"

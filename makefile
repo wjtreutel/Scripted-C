@@ -1,5 +1,8 @@
-make:
-	gcc main.c -Wall -Wextra -o untitled
+make: 
+	gcc main.c scanner.c -Wall -Wextra -o untitled -g  -ggdb
 
 test:
-	make; ./untitled
+	./untitled
+
+gdb: 
+	make; gdb ./untitled
