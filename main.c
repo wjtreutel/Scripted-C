@@ -8,9 +8,13 @@
  */
 
 // INCLUDES
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 #include "scanner.h"
 #include "support.h"
+#include "myTerminal.h"
 
 
 

@@ -5,8 +5,16 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+#include "myTerminal.h"
+#include "scanner.h"
 #include "support.h"
 
+#define BLINK ANSI_BLINK
+#define NOBLINK ANSI_NOBLINK
 
 void userMessage (char *text) {
 	for (unsigned int i = 0; i < strlen(text); i++) {
