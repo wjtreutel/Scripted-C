@@ -1,0 +1,11 @@
+SYS RED "[WELCOME TO PENGUINCHAT]" BR
+SYS RED "========================" BR
+BR
+SYS "user1: Hello" BR
+SYS "user1: Hello?" BR
+SYS "user2: Hello" BR
+SYS "user1: Hello!" BR
+SYS "<user1 has disconnected>"  BR
+
+BRANCH "conversation.txt" "badFile.quitOption"
+PROMPT_AB "What do. A or B?"

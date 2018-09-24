@@ -1,0 +1,39 @@
+SYS : "user@computer:~$  "  
+USR : "cd ~/Documents/Secret"
+
+SYS : "user@computer:~/Documents/Secret$  " 
+USR : "ls"
+SYS BOLD : "File1 File2 File3" BR
+
+SYS : "user@computer:~/Documents/Secret$  "
+USR : "cat File1"
+SYS : "siowermgvioervbhe[fwiefuwcvnwogubt" BR
+
+SYS : "user@computer:~/Documents/Secret$  "
+USR : "decrypt File1"
+SYS : "9/22/19, 6:30pm - Airport, DO NOT FORGET" BR
+
+SYS : "user@computer:~/Documents/Secret$  "
+USR : "hack.exe"
+SYS : "Would you really like to hack the PENTAGON?" BR
+
+SYS : "user@computer:~/Documents/Secret$  "
+USR : "yes"
+SYS : "HACK IN PROGRESS..." BR
+SYS : "NEUTRALIZED FIREWALL..."
+SYS : "DOWNLOADING MORE SECRETS..."
+SYS : "FINDING OUT WHO KILLED JFK..." BR
+
+SYS RED : "WARNING! WARNING! HACK ALMOST DETECTED!" BR 
+
+SYS : "WHAT DO???" BR
+SYS : "user@computer:~/Documents/Secret$  " 
+USR : "stealthyEscape.exe"
+
+SYS : "Hack aborted. Status: Undetected" BR
+
+SYS : "user@computer:~/Documents/Secret$  " 
+USR : "shutdown"
+
+BRANCH  "terminalSession.txt" "conversation.txt"
+PROMPT_AB "View again?\na) Yes\nb) No"
