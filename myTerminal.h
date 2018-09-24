@@ -4,7 +4,8 @@
  * Written by Liam Treutel
  */
 
-
+#ifndef MYTERMINAL_H
+#define MYTERMINAL_H
 
 
 
@@ -50,3 +51,7 @@
 #define ANSI_MAGENTA_BG "\x1b[45m"
 #define ANSI_CYAN_BG    "\x1b[46m"
 #define ANSI_WHITE_BG   "\x1b[47m"
+
+
+
+#endif
